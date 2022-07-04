@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Your Travel Companion " />
+    <meta property="og:title" content="Travel" />
+    <meta property="og:description" content="Desploy website on facebook" />
+    <meta property="og:image " content="https://" />
+    <meta property="og:url " content="https://travel.com" />
+    <title>Michael Okello's Travel Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/f3ac132027.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <!--Beginning of the Navbar -->
+    <nav class="nav collapsible collapsible--expanded">
+      <a href="/"><img class="nav__brand" src="images/logo.png" alt="" /></a>
+      <svg class="icon icon--white nav__toggler">
+        <use xlink:href="images/sprite.svg#menu"></use>
+      </svg>
+      <!--Beginning of My Input Group
+      <div class="input-group">
+        <i class="fa-solid fa-magnifying-glass fa-1x magnifying-glass"></i>
+        <input
+          placeholder="Search for destinations"
+          class="input"
+          type="text"
+        />
+      </div> -->
+      <!--End of Input Group-->
+      <ul class="list nav__list collapsible__content">
+        <li class="nav__item"><a href="#">Destinations</a></li>
+        <li class="nav__item"><a href="#">Review</a></li>
+        <li class="nav__item"><a href="#">Pricing</a></li>
+        <li class="nav__item"><a href="#">Booking</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      <div class="grid grid--1x3">
+        <!--Grid ya Kwanza -->
+        <div>
+          <!-- This is the grid 1 div-->
+
+          <div class="block__wrapper">
+            <button class="btn btn--secondary btn__block">
+              Explore The World
+            </button>
+            <h2 class="block__heading">
+              <span class="block__color">Find</span> your dream
+              <i class="fa-solid fa-camera"></i> Destinations
+            </h2>
+            <p class="block__body">
+              Learn about tourism and you'll be amazed by all the experiences
+              you'll find
+            </p>
+            <button class="btn btn--accent">Plan a Trip</button>
+            <button class="btn btn--secondary">Contact Us</button>
+          </div>
+        </div>
+        <!--Grid ya Pili -->
+        <div class="bg_image-wrapper">
+          <img
+            class="block__background-image bg_image-wrapper"
+            src="/images/background.webp"
+            alt=""
+          />
+          <!-- This is the grid 2 div-->
+        </div>
+        <!--Grid ya Tatu -->
+        <div class="media__wrapper">
+          <!-- This is the grid 3 div-->
+          <div>
+            <h3 class="block__title">Why you are most excited</h3>
+          </div>
+          <div class="media">
+            <div class="media__image">
+              <i class="fa-solid fa-mountain fa-3x"></i>
+            </div>
+            <div class="media__body">
+              <h3 class="media__title">Hiking</h3>
+              <p class="media__content">Climbing the tallest mountain</p>
+            </div>
+          </div>
+
+          <div class="media">
+            <div class="media__image">
+              <i class="fa-solid fa-person-swimming fa-3x"></i>
+            </div>
+            <div class="media__body">
+              <h3 class="media__title">Swimming</h3>
+              <p class="media__content">
+                Swimming is the next best thing to have
+              </p>
+            </div>
+          </div>
+
+          <div class="media">
+            <div class="media__image">
+              <i class="fa-solid fa-parachute-box fa-3x"></i>
+            </div>
+            <div class="media__body">
+              <h3 class="media__title">Parachuting</h3>
+              <p class="media__content">
+                It feels more like flying than faling
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="grid card__wrapper">
+      <div class="card">
+        <!-- The background image -->
+        <figure class="card__thumbnail">
+          <img src="./images/beach.webp" alt="Visit the Beach" />
+          <span class="card__title">Visit Warm Beaches</span>
+        </figure>
+      </div>
+
+      <div class="card">
+        <!-- The background image -->
+        <figure class="card__thumbnail">
+          <img
+            src="./images/sanfrascisco.webp"
+            alt="Visit Golden gate Bridge"
+          />
+          <span class="card__title">Marvel at The Golden Gate Bridge</span>
+        </figure>
+      </div>
+      <div class="card">
+        <!-- The background image -->
+        <figure class="card__thumbnail">
+          <img src="./images/desert.webp" alt="Visit Dunes of Morocco" />
+          <span class="card__title">Check Out The Dunes of Morocco</span>
+        </figure>
+      </div>
+      <div class="card">
+        <!-- The background image -->
+        <figure class="card__thumbnail">
+          <img src="./images/sanfrasciscotoo.webp" alt="Visit Sanfrancisco" />
+          <span class="card__title">A Tour of San-Francisco</span>
+        </figure>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
