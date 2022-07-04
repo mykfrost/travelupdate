@@ -1,0 +1,23 @@
+{
+  "name": "TRAVEL",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mykfrost/travelupdate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mykfrost/travelupdate/issues"
+  },
+  "homepage": "https://github.com/mykfrost/travelupdate#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
