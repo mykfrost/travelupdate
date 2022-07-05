@@ -206,12 +206,16 @@ a {
   justify-content: center;
   justify-items: center;
   align-items: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 /*For the media below is for tablets*/
 @media screen and (min-width: 768px) {
   .grid--1x2 {
     grid-template-columns: repeat(2, 1fr);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
 }
 
@@ -219,6 +223,8 @@ a {
 @media screen and (min-width: 1024px) {
   .grid--1x3 {
     grid-template-columns: repeat(3, 1fr);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
 }
 
@@ -234,7 +240,7 @@ a {
   padding: 0;
   overflow: hidden;
   display: flex;
-  width: 30rem; /* Box dimensions */
+  width: 40rem; /* Box dimensions */
   height: 40rem;
   border-radius: val(border-radius); /* Styling */
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
@@ -255,8 +261,8 @@ a {
 /* The image container */
 .card__thumbnail {
   margin: 0.5rem;
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   padding-bottom: 1rem;
   position: relative;
   overflow: hidden;
@@ -279,6 +285,7 @@ a {
   position: absolute;
   padding-bottom: 0.5rem;
   justify-items: center;
+  padding-left: 1.5rem;
 }
 .card:hover {
   /* Just for styling */
@@ -304,30 +311,29 @@ a {
 }
 
 .block__heading {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   font-size: 4rem;
   margin: 0;
 }
 .block__body {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   font-size: 2.5rem;
   margin: 0;
 }
 
 .bg_image-wrapper {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  height: 40vh;
+  width: 38vh;
+  background: #ffcd6a;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: left;
   clip-path: circle(50% at 50% 50%);
-}
-.block__background-image {
-  display: flex;
-  flex-direction: column;
-  margin: 1rem;
-  align-items: center;
-  justify-items: center;
-  height: 50rem;
-  width: 50rem;
-  background: #ffcd6a;
 }
 
 /*FOR BIG SCREENS*/
@@ -338,11 +344,13 @@ a {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
-  .block__background-image {
-    flex-direction: row;
-  }
+
   .block__heading {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     margin-top: 0;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -353,6 +361,10 @@ a {
     margin-left: 1rem;
   }
   .bg_image-wrapper {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    height: 50vh;
+    width: 50vh;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -367,18 +379,24 @@ a {
 
 /*Wrappers*/
 .block__wrapper {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   box-sizing: border-box;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   overflow: hidden;
 }
 .media__wrapper {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   display: block;
 }
 /*create a wrapper for the cards*/
 .card__wrapper {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   background: var(--color-primary);
   margin: 0.5rem;
   display: flex;
@@ -394,46 +412,68 @@ a {
   margin-bottom: 1rem;
 }
 .media__image {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   display: flex;
   margin: 0.5rem;
 }
 .media__title {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   margin-top: 0;
   font-size: 2rem;
 }
 .media__body {
   display: block;
   margin: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 .media__content {
   font-size: 1.6rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .block__title {
   margin: 0.5rem;
   font-size: 2.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 @media screen and (min-width: 1024px) {
   .block__wrapper {
     margin: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
   .block__title {
     font-size: 3rem;
     margin: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
   .media__image {
     margin-top: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
   .media__title {
     font-size: 3rem;
     margin-top: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
   .media__body {
     margin-left: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
   .media__content {
     font-size: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
 }
 
